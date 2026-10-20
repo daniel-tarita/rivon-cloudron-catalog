@@ -1,4 +1,46 @@
 {
-  "stable": true,
-  "versions": {}
+    "stable": true,
+    "versions": {
+        "0.1.0": {
+            "manifest": {
+                "id": "com.tdsoft.rivon.central",
+                "title": "Rivon Central",
+                "author": "TdSoft",
+                "description": "Control plane for managing Rivon websites, domains, users, and deployments.",
+                "tagline": "Manage Rivon from one place",
+                "version": "0.1.0",
+                "minBoxVersion": "10.0.0",
+                "healthCheckPath": "/api/v1/health",
+                "httpPort": 3000,
+                "addons": {
+                    "localstorage": {},
+                    "postgresql": {},
+                    "sendmail": {}
+                },
+                "configurePath": "/dashboard",
+                "postInstallMessage": "The first start generates unique production keys in `/app/data/rivon.env`. Existing keys survive updates. You can edit the file using this app's Cloudron File Manager (top right), then restart the app. Keep it private and backed up; do not delete or empty keys in a running installation. Connect Studio through Rivon's pairing flow.",
+                "manifestVersion": 2,
+                "website": "https://rivon.io",
+                "packageUrl": "https://rivon.io",
+                "packagerName": "TdSoft",
+                "packagerUrl": "https://rivon.io",
+                "iconUrl": "https://raw.githubusercontent.com/daniel-tarita/rivon-cloudron-catalog/main/central/icon.svg",
+                "mediaLinks": [
+                    "https://raw.githubusercontent.com/daniel-tarita/rivon-cloudron-catalog/main/central/preview.svg"
+                ],
+                "tags": [
+                    "cms",
+                    "websites",
+                    "management"
+                ],
+                "changelog": "* Initial Rivon Central community release.",
+                "contactEmail": "support@rivon.io",
+                "memoryLimit": 536870912,
+                "dockerImage": "ghcr.io/daniel-tarita/rivon/central-app:0.1.0@sha256:2376da9094b6d57149049c1f41211d05473825f1c69df53a9c475e192ae6939c"
+            },
+            "creationDate": "Tue, 20 Oct 2026 08:01:59 GMT",
+            "ts": "Tue, 20 Oct 2026 08:01:59 GMT",
+            "publishState": "published"
+        }
+    }
 }

@@ -1,4 +1,53 @@
 {
-  "stable": true,
-  "versions": {}
+    "stable": true,
+    "versions": {
+        "0.1.0": {
+            "manifest": {
+                "id": "com.tdsoft.rivon.studio",
+                "title": "Rivon Studio",
+                "author": "TdSoft",
+                "description": "Website server for editing, administering, and publishing Rivon content.",
+                "tagline": "Publish with Rivon",
+                "version": "0.1.0",
+                "minBoxVersion": "10.0.0",
+                "healthCheckPath": "/api/v1/health",
+                "httpPort": 3010,
+                "httpPorts": {
+                    "STUDIO_ADMIN_DOMAIN": {
+                        "title": "Administrator domain",
+                        "description": "Dedicated HTTPS domain for the Studio administrator interface.",
+                        "containerPort": 3010,
+                        "defaultValue": "studio"
+                    }
+                },
+                "addons": {
+                    "localstorage": {},
+                    "postgresql": {},
+                    "sendmail": {}
+                },
+                "postInstallMessage": "The first start generates unique production keys in `/app/data/rivon.env`. Existing keys survive updates. You can edit the file using this app's Cloudron File Manager (top right), then restart the app. Keep it private and backed up; do not delete or empty keys in a running installation. Connect Central through Rivon's pairing flow.",
+                "manifestVersion": 2,
+                "website": "https://rivon.io",
+                "packageUrl": "https://rivon.io",
+                "packagerName": "TdSoft",
+                "packagerUrl": "https://rivon.io",
+                "iconUrl": "https://raw.githubusercontent.com/daniel-tarita/rivon-cloudron-catalog/main/studio/icon.svg",
+                "mediaLinks": [
+                    "https://raw.githubusercontent.com/daniel-tarita/rivon-cloudron-catalog/main/studio/preview.svg"
+                ],
+                "tags": [
+                    "cms",
+                    "websites",
+                    "publishing"
+                ],
+                "changelog": "* Initial Rivon Studio community release.",
+                "contactEmail": "support@rivon.io",
+                "memoryLimit": 536870912,
+                "dockerImage": "ghcr.io/daniel-tarita/rivon/studio-app:0.1.0@sha256:7b0d455d4f3c2a03b1965a8ec991509503e39a85adebf87d719466bdaa66b4c6"
+            },
+            "creationDate": "Tue, 20 Oct 2026 08:01:59 GMT",
+            "ts": "Tue, 20 Oct 2026 08:01:59 GMT",
+            "publishState": "published"
+        }
+    }
 }
