@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Rivon Central product banner</title>
+  <desc id="desc">A conceptual illustration of Central connecting and managing Rivon websites, not a screenshot.</desc>
+  <rect width="1500" height="500" rx="24" fill="#10151d"/>
+  <circle cx="1250" cy="250" r="310" fill="#182330"/>
+  <g fill="none" stroke="#f59a42" stroke-width="3">
+    <path d="M1080 250 1280 120M1080 250h250M1080 250l200 130" opacity=".45"/>
+    <rect x="1000" y="170" width="160" height="160" rx="32" fill="#10151d"/>
+    <path d="m1080 198 46 26v52l-46 26-46-26v-52Zm-46 26 46 26 46-26m-46 26v52"/>
+    <rect x="1260" y="85" width="90" height="70" rx="12"/>
+    <rect x="1290" y="215" width="90" height="70" rx="12"/>
+    <rect x="1260" y="345" width="90" height="70" rx="12"/>
+    <path d="M1275 105h60m-60 18h35m-5 112h60m-60 18h35m-65 112h60m-60 18h35" opacity=".6"/>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <text x="100" y="125" font-size="20" letter-spacing="5" fill="#f59a42">RIVON / CENTRAL</text>
+    <text x="96" y="245" font-size="68" font-weight="700" fill="#f5f7fa">Your websites. One place.</text>
+    <text x="100" y="315" font-size="28" fill="#afbdcd">Manage Rivon websites, domains, users, and deployments.</text>
+    <text x="100" y="410" font-size="21" fill="#afbdcd">Self-hosted control plane</text>
+  </g>
+</svg>

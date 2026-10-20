@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="500" viewBox="0 0 1500 500" role="img" aria-labelledby="title desc">
+  <title id="title">Rivon Studio product banner</title>
+  <desc id="desc">A conceptual illustration of layered website content, not a screenshot of the Studio interface.</desc>
+  <rect width="1500" height="500" rx="24" fill="#10151d"/>
+  <circle cx="1250" cy="250" r="310" fill="#182330"/>
+  <g stroke="#f59a42" stroke-width="3" stroke-linejoin="round">
+    <path d="m1050 300 150 80 150-80-150-80Z" fill="#10151d"/>
+    <path d="m1050 240 150 80 150-80-150-80Z" fill="#182330"/>
+    <path d="m1050 180 150 80 150-80-150-80Z" fill="#263342"/>
+    <path d="m1120 180 80 42 80-42m-80-38 65 35" fill="none" opacity=".6"/>
+  </g>
+  <g font-family="system-ui, sans-serif">
+    <text x="100" y="125" font-size="20" letter-spacing="5" fill="#f59a42">RIVON / STUDIO</text>
+    <text x="96" y="245" font-size="68" font-weight="700" fill="#f5f7fa">Create. Edit. Publish.</text>
+    <text x="100" y="315" font-size="28" fill="#afbdcd">Edit, administer, and publish your Rivon website.</text>
+    <text x="100" y="410" font-size="21" fill="#afbdcd">Self-hosted website server</text>
+  </g>
+</svg>
